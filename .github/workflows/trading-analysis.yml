@@ -486,8 +486,8 @@ jobs:
               provider_plan.append(
                   {
                       "provider": "google",
-                      "quick_model": "gemini-3.5-flash",
-                      "deep_model": "gemini-3.5-flash",
+                      "quick_model": "gemini-3.6-flash",
+                      "deep_model": "gemini-3.8-flash",
                       "credential": "GOOGLE_API_KEY",
                   }
               )
