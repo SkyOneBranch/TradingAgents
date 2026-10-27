@@ -43,6 +43,7 @@ PROVIDER_EXCEPTION_NAME_TOKENS = (
     "timeout",
     "connection",
     "credential",
+    "remoteprotocolerror",  # HTTP transport can disconnect before returning a status code.
 )
 
 PROVIDER_TRACEBACK_HINTS = (
