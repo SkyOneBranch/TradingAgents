@@ -34,19 +34,19 @@ on:
   # Thursday  -> Batch 4
   # Friday    -> Batch 5
   schedule:
-    - cron: "25 17 * * 1"
+    - cron: "26 17 * * 1"
       timezone: "America/New_York"
 
-    - cron: "25 17 * * 2"
+    - cron: "26 17 * * 2"
       timezone: "America/New_York"
 
-    - cron: "25 17 * * 3"
+    - cron: "26 17 * * 3"
       timezone: "America/New_York"
 
-    - cron: "25 17 * * 4"
+    - cron: "26 17 * * 4"
       timezone: "America/New_York"
 
-    - cron: "25 17 * * 5"
+    - cron: "26 17 * * 5"
       timezone: "America/New_York"
 
 
@@ -146,11 +146,11 @@ jobs:
           # NYSE holidays are skipped. There is no automatic catch-up
           # or Batch shifting to the next trading day.
           SCHEDULE_TO_BATCH = {
-              "25 17 * * 1": "1",
-              "25 17 * * 2": "2",
-              "25 17 * * 3": "3",
-              "25 17 * * 4": "4",
-              "25 17 * * 5": "5",
+              "26 17 * * 1": "1",
+              "26 17 * * 2": "2",
+              "26 17 * * 3": "3",
+              "26 17 * * 4": "4",
+              "26 17 * * 5": "5",
           }
 
 
