@@ -651,6 +651,8 @@ jobs:
 
       GOOGLE_GENAI_USE_ENTERPRISE: "true"
 
+      GOOGLE_GENAI_USE_VERTEXAI: "true"
+
       ZHIPU_CN_API_KEY: ${{ secrets.ZHIPU_CN_API_KEY }}
       
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
